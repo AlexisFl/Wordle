@@ -45,10 +45,6 @@ $s = $getScores->fetchAll();
                     echo '<tr><td class="text-left">'.$s[$i]['pseudo'].'</td><td class="text-left">'.(int)$s[$i]['AVG(score_obtenu)'].'</td></tr>';
                 } 
                 ?>
-                <tr>
-                    <td class="text-left">Patrick</td>
-                    <td class="text-left">6</td>
-                </tr>
             </tbody>
         </table>
     </div>
