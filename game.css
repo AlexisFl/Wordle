@@ -1,0 +1,114 @@
+body{
+    font-family: Bahnschrift, "Arial Narrow";
+    text-align: center;
+    background: whitesmoke;
+    color: black;
+}
+
+#title{
+    font-size: 40px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 3%;
+}
+
+#board{
+    width: 400px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile {
+    /* forme de la case */
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    background-color: white;
+
+    /*text contenu dans les cases*/
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.present{
+    background-color: rgb(184, 184, 45);
+    color: whitesmoke;
+}
+
+.absent{
+    background-color: rgb(190, 190, 190);
+    color: whitesmoke;
+}
+
+.correct{
+    background-color: rgb(45, 148, 45);
+    color: whitesmoke;
+}
+
+.correct.absent{
+    background-color: rgb(45, 148, 45);
+    color: whitesmoke;
+}
+
+.keyboard-row{
+    width : 400px;
+    margin : 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-tile{
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Bahnschrift, "Arial Narrow";
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-key-tile{
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backspace-key-tile{
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
