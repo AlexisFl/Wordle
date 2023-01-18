@@ -105,6 +105,6 @@ catch (Exception $e)
     </nav>
 </header>
 
-<a href="index.php"><h1 id="title">Wordle</h1></a>
+<a href="home.php"><h1 id="title">Wordle</h1></a>
 
 <br><br>
