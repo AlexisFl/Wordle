@@ -19,7 +19,7 @@ if (isset($_COOKIE["theme"])){
 
 try
 {
-  $mysqlConnection = new PDO('mysql:host=localhost;dbname=Wordle;charset=utf8', 'root', 'mondtb', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+  $mysqlConnection = new PDO('mysql:host=localhost;dbname=Wordle;charset=utf8', 'root', 'M587$2HPk!', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
   $oldWStatement = $mysqlConnection->prepare('SELECT * FROM tirage WHERE date_t >= date_sub(now(), interval 180 day) ORDER BY date_t DESC');
   $oldWStatement->execute() or die(print_r($mysqlConnection->errorInfo()));
   $infos = $oldWStatement->fetchAll();
